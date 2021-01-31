@@ -1,4 +1,4 @@
-# Product Recommendation System
+# Product Recommendation
 
 Aim is to defining a function which recommends a product to the customer. One of them will be customer based and the other one will be item based.
 
