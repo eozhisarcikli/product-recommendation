@@ -2,7 +2,9 @@
 
 ## 1. Introduction
 
-Aim is to defining a function which recommends a product to the customer. One of them will be customer based and the other one will be item based.
+We have asked ourselves many times when shopping online, how do they know what we can buy? With this study we will try to understand the basics of 
+recommendation systems. Aim is to defining two functions at the end, which recommends a product to the customer. One of them will be customer based 
+and the other one will be item based.
 
 ## 2. Data
 
