@@ -22,3 +22,9 @@ Field descriptions are below;
 -Country: Location of the customer<br/>
 
 ## 3. Modelling
+
+This model will be built on the **collaborative filtering** algorithm, which tries to answer the question; Do we have users that buy similar items? Let's 
+say our system has records that we have a subset of users who bought Metallica albums, and most of these customers also bought Megadeath albums too. Therefore, 
+we can infer if someone has purchases Metallica albums, they are a likely candidate to purchase a Megadeath album. As can be seen from this example, this 
+algorithm is used to recommend products based on the history of user behaviors and consequently looks at the similarites between users with a so called 
+user-to-item matrix.
