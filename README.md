@@ -28,3 +28,7 @@ say our system has records that we have a subset of users, who bought Metallica 
 Therefore, we can infer if someone purchases Metallica albums, they are also a likely candidate to purchase a Megadeath album. As can be seen from this 
 example, that algorithm is used to recommend products based on the history of user behaviors and consequently looks at the similarites between users with 
 a so called **user-to-item matrix**.
+
+In user-to-item matrix, each row represents an individual customer and each column represents items in the inventory. In this case, 1 indicates that the 
+customer purchased the relevant product, while 0 indicates the opposite. From this matrix, the similarity of customers will be calculated by 
+using **cosine similarity** method to measure distance between customers.
