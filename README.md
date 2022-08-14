@@ -42,7 +42,7 @@ of the angle between them and determines whether two vectors are pointing in rou
 ### 3.1 Customer Based
 
 Customer-item matrix will be used to get the pairwise cosine similarity so called customer similarity matrix, which will be used as a basis 
-of the recommendation system. To define the function below steps should be followed;
+of the recommendation system. To define the function on customer similarity matrix below steps should be followed;
 
 1. Choose a customer randomly.
 2. Find out which customer is the second(because first one is himself) most similar with the choosen one.
@@ -53,11 +53,24 @@ of the recommendation system. To define the function below steps should be follo
 
 Transpose of customer-item matrix will be used to get the pairwise cosine similarity so called item similarity matrix, which will be used as a basis 
 of the recommendation system. So item similarity matrix shows the items that were purchased together. For example a customer who buy suit will tend to 
-buy leather shoes or other matching accessories. Therefore a black suit is going to score very high with black shoes. To define the function 
-below steps should be followed;
+buy leather shoes or other matching accessories. Therefore a black suit is going to score very high with black shoes. To define the function on item 
+similarity matrix below steps should be followed;
 
 1. Choose an item randomly.
 2. Find out top 10 similar items with the choosen one(except itself).
 3. Get the descriptions of these items while removing duplicates.
 
 ## 4. Conclusion
+
+As a result of this study we see that customer based filtering has some disadvantages below;
+
+- Systems perform poorly when they had many items but comparatively few ratings.
+- Calculation time of similarities between all pairs of customers is expensive.
+- Customer profiles change quickly and entire model has to be recalculated every time.
+
+Despite that, item based filtering has some solutions against those disadvantages, if there are less items than users. With more users than items, 
+each item tends to have more ratings than each users, so an item's average rating usually doesn't change quickly, because item based filtering models
+use rating distributions per item not per customer. This leads to more stable rating distributions in the model, so the model doesn't have to be rebuilt 
+as often. When users purchase and then rate an item, that item's similar items are picked from the existing model and added to customer's recommendations.
+
+
