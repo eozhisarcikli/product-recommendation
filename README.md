@@ -32,3 +32,6 @@ a so called **user-to-item matrix**.
 In user-to-item matrix, each row represents an individual customer and each column represents items in the inventory. In this case, 1 indicates that the 
 customer purchased the relevant product, while 0 indicates the opposite. From this matrix, the similarity of customers will be calculated by 
 using **cosine similarity** method to measure distance between customers.
+
+<img src="image/formula.png" width="900" height="400">
+
