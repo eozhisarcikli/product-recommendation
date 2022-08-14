@@ -35,5 +35,7 @@ using **cosine similarity** method to measure distance between customers.
 
 <img src="image/formula.PNG" width="400" height="150">
 
+A and B are used to reporesent two customers and A<sub>i</sub> and B<sub>i</sub> represent each item customer A and B purchased.
+
 
 
