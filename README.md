@@ -1,4 +1,4 @@
-# Product Recommendation with Collaborative Filtering
+# Customer&Item Based Product Recommendation
 
 ## 1. Introduction
 
