@@ -12,14 +12,14 @@ This is a transnational data set from [kaggle](https://www.kaggle.com/carrie1/ec
 
 Field descriptions are below;
 
--InvoiceNo: Unique number of the invoice<br/>
--StockCode: Unique code of the product<br/>
--Description: Name of the product<br/>
--Quantity: The amount of the purchase<br/>
--InvoiceDate: Date of the invoice<br/>
--UnitPrice: Cost per product<br/>
--CustomerID: Unique ID of the customer<br/>
--Country: Location of the customer<br/>
+- InvoiceNo: Unique number of the invoice<br/>
+- StockCode: Unique code of the product<br/>
+- Description: Name of the product<br/>
+- Quantity: The amount of the purchase<br/>
+- InvoiceDate: Date of the invoice<br/>
+- UnitPrice: Cost per product<br/>
+- CustomerID: Unique ID of the customer<br/>
+- Country: Location of the customer<br/>
 
 ## 3. Modelling
 
@@ -35,7 +35,8 @@ using **cosine similarity** method to measure distance between customers.
 
 <img src="image/formula.PNG" width="400" height="150">
 
-A and B are used to reporesent two customers and A<sub>i</sub> and B<sub>i</sub> represent each item customer A and B purchased.
+- A and B are used to represent two customers.
+- A<sub>i</sub> and B<sub>i</sub> represent each item customer A and B purchased.
 
 
 
