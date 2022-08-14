@@ -41,10 +41,11 @@ of the angle between them and determines whether two vectors are pointing in rou
 
 ### 3.1 Customer Based
 
-Customer-item matrix will be used to get the pairwise cosine similarity. To define that function below steps should be followed;
+Customer-item matrix will be used to get the pairwise cosine similarity so called customer similarity matrix, which will be used as a basis 
+of the recommendation system. To define the function below steps should be followed;
 
-1. Choose a customer randomly
-2. Find out which customer is the second(because first one is himself) most similar with the choosen one 
+1. Choose a customer randomly.
+2. Find out which customer is the second(because first one is himself) most similar with the choosen one.
 3. Answer the question; What items did the similar one buy, but the choosen one didn't?
 4. Recommend those items to choosen one, since they're so similar.
 
@@ -52,7 +53,7 @@ Customer-item matrix will be used to get the pairwise cosine similarity. To defi
 
 Transpose of customer-item matrix will be used to get the pairwise cosine similarity so called item similarity matrix, which will be used as a basis 
 of the recommendation system. So item similarity matrix shows the items that were purchased together. For example a customer who buy suit will tend to 
-buy leather shoes or other matching accessories. Therefore a black suit is going to score very high with black shoes. To define that function 
+buy leather shoes or other matching accessories. Therefore a black suit is going to score very high with black shoes. To define the function 
 below steps should be followed;
 
 1. Choose an item randomly.
