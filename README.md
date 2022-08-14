@@ -57,7 +57,7 @@ buy leather shoes or other matching accessories. Therefore a black suit is going
 below steps should be followed;
 
 1. Choose an item randomly.
-2. Find out top 10 similar items with the choosen one (except itself).
+2. Find out top 10 similar items with the choosen one(except itself).
 3. Get the descriptions of these items while removing duplicates.
 
 ## 4. Conclusion
